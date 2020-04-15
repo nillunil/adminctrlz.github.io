@@ -1,0 +1,53 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h5 {
+    letter-spacing: 3px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+html,
+body,
+header,
+.view {
+    height: 100vh;
+}
+
+@media (max-width: 1000px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 70%;
+    }
+}
+
+.background-image {
+    background-image: url('images/group_photo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.text-center {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    justify-content: center;
+}
