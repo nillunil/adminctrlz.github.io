@@ -1,0 +1,2 @@
+- of each student on representative image of the student's work to be uploaded here
+- image specs to be defined: resolution/size/format/etc.
