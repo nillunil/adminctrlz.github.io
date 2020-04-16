@@ -12,4 +12,4 @@ ctrlz.website structure:
 /students/[student_name] level
 - student's individual index.html page (linking to exhibition.html & root index.html, plus maybe 'previous' & 'next' student?)
 - any media assets
-- students to upload into this folder only via collaboration? or pull requests?
+- students to upload into this folder as collaborators
