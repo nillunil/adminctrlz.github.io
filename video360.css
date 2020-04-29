@@ -24,15 +24,18 @@ h4 {
 
 /* CHECK RESPONSIVENESS OF TITLE AND BUTTON ON MOBILE */
 .overvideo{
-    position: relative;
+    position: fixed;
     z-index: 2;
     text-align: center;
-    padding-top: 700px;
+    bottom: 150px;
+    left: -100px;
+    margin-left: 50%;
+    margin-right: 50%;
 }
 
 #buttonvideo{
-    width: 200px;
-    height: 50px;
+    width: 250px;
+    height: 60px;
     border-color: #F8ecd2;
     border-width: 2px;
     background-color: transparent;
