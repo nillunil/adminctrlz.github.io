@@ -29,8 +29,9 @@ h2{
 }
 
 .project-info{
-	padding-right: 20pt;
-	padding-top: 50pt;
+    padding-right: 50pt;
+    padding-top: 50pt;
+    padding-left: 0px;
 }
 
 @media screen and (max-width: 450px) {
@@ -39,7 +40,15 @@ h2{
 
 
 @media screen and (max-width: 768px) {
-
-    
+	
+	.project-info{
+    	padding-right: 50pt;
+    	padding-top: 50pt;
+   	 	padding-left: 50pt;
+	}
+	
+	.container-3{
+    	padding-top: 20pt;
+	}
 
 }
