@@ -52,3 +52,13 @@ h2{
 	}
 
 }
+
+.img-sticky{
+    position: -webkit-sticky; /* Safari */
+    position: fixed;
+ 	z-index: 2;
+    top: 50%;
+	right: 0;
+    width: 75px;
+    height: 75px;
+}
