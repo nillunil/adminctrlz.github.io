@@ -7,6 +7,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.navbar.navbar-6 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger8.svg?color=154C5B');
+}
+
 h1 {
     font-family: 'Abril Fatface', cursive;
     font-size: 100pt;
@@ -29,7 +33,7 @@ p {
     font-family: 'Roboto', sans-serif;
     font-size: 14pt;
     letter-spacing: 2pt;
-	font-weight: 300;
+    font-weight: 300;
 }
 
 .title {
@@ -69,10 +73,10 @@ a:active {
     text-decoration: none;
 }
 
-.logo-image{
-	width: 300px;
-	height: auto;
-	align-self: center;
+.logo-image {
+    width: 300px;
+    height: auto;
+    align-self: center;
 }
 
 .container-2 {
@@ -106,10 +110,10 @@ a:active {
     padding-bottom: 100px;
 }
 
-.piece_text{
+.piece_text {
     padding: 5pt;
-    
 }
+
 
 /* MOBILE SCREENS */
 
@@ -117,57 +121,92 @@ a:active {
     .exhibition-img {
         display: none;
     }
-
     .biotext {
         padding-bottom: 0pt;
     }
-
     .gallery {
         padding-top: 10pt;
     }
-    
-    .piece_text{
+    .piece_text {
         padding: 0pt;
         display: inline-flex;
-        
     }
-
-    .col-6{
+    .col-6 {
         flex: none;
         max-width: none;
         text-align: center;
     }
-
-    .title_of_piece{
-        
+    .title_of_piece {
         padding-left: 15pt;
     }
-	
-	.logo-image{
-		display: none;
-	}
+    .logo-image {
+        display: none;
+    }
 }
 
-
 @media screen and (max-width: 768px) {
-
     .biotext {
         padding-bottom: 0pt;
     }
-
     .gallery {
         padding-top: 10pt;
     }
-
     .container-2 {
         height: 300px;
     }
-	
-	.logo-image{
-		display: none;
-	}
-
+    .logo-image {
+        display: none;
+    }
+    .sidebar {
+        padding-top: 15px;
+    }
+    .sidebar a {
+        font-size: 18px;
+    }
 }
 
-.footer {
+.footer {}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    background-image: linear-gradient(to top, #ffffff, #63b5a2);
+    border-left: solid;
+    border-left-width: thin;
+    border-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    border-image: url(images/left_arrow.png);
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 24px;
+    margin-left: 50px;
+    color: black;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
 }
