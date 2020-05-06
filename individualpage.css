@@ -1,64 +1,61 @@
-body{
-	background-image: linear-gradient(to bottom, white, #63b5a2);
+body {
+    background-image: linear-gradient(to bottom, white, #376789);
 }
 
-p{
-	
+p {
     font-family: 'Roboto', sans-serif;
     font-size: 10pt;
     letter-spacing: 0pt;
 }
 
-h3{
-	font-family: 'Abril Fatface', cursive;
+h3 {
+    font-family: 'Abril Fatface', cursive;
     font-size: 20pt;
-	text-align: center;
-	
-	
+    text-align: center;
 }
 
-h2{
-	padding-top: 20pt;
-	padding-bottom: 20pt;
-	letter-spacing: 3pt;
+h2 {
+    padding-top: 20pt;
+    padding-bottom: 20pt;
+    letter-spacing: 3pt;
 }
 
-.container-3{
+.container-3 {
     padding-top: 100pt;
     padding-bottom: 100pt;
 }
 
-.project-info{
+.project-info {
     padding-right: 50pt;
     padding-top: 50pt;
     padding-left: 0px;
 }
 
-@media screen and (max-width: 450px) {
-    
+.profile_picture {
+    width: 150px;
+    height: 150px;
 }
 
+@media screen and (max-width: 450px) {}
 
 @media screen and (max-width: 768px) {
-	
-	.project-info{
-    	padding-right: 50pt;
-    	padding-top: 50pt;
-   	 	padding-left: 50pt;
-	}
-	
-	.container-3{
-    	padding-top: 20pt;
-	}
-
+    .project-info {
+        padding-right: 50pt;
+        padding-top: 50pt;
+        padding-left: 50pt;
+    }
+    .container-3 {
+        padding-top: 20pt;
+    }
 }
 
-.img-sticky{
-    position: -webkit-sticky; /* Safari */
+.img-sticky {
+    position: -webkit-sticky;
+    /* Safari */
     position: fixed;
- 	z-index: 2;
+    z-index: 2;
     top: 50%;
-	right: 0;
+    right: 0;
     width: 75px;
     height: 75px;
 }
