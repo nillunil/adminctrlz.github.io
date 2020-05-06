@@ -10,6 +10,7 @@
     <!-- Local CSS -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="individualpage.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:300,400&display=swap" rel="stylesheet">
     <title>Individual</title>
@@ -25,7 +26,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent15">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html/#Exhibition">
+                    <a class="nav-link" href="group_page.html#Exhibition">
                         <h5>Exhibition</h5>
                     </a>
                 </li>
@@ -56,30 +57,32 @@
             <h5>Title of Project</h5>
         </a>
     </div>
-	<!--Sticky Sidebar Arrow-->
-	<img class="img-sticky" onclick="openNav()" src="images/left_arro.svg" alt="MAIN PROJECT IMAGE"> 
+    <!--Sticky Sidebar Arrow-->
+    <img class="img-sticky" onclick="openNav()" src="images/left_arro.svg" alt="MAIN PROJECT IMAGE">
     <!-- Portfolio Item Row -->
-    <div class="row">
-        <div class="col-md-7 d-flex align-items-center justify-content-center"> <img class="img-fluid" src="http://placehold.it/500x500" alt="MAIN PROJECT IMAGE"> </div>
-        <div class="col-md-5 project-info col-xl-4">
-            <div class="row">
-                <div class="col d-flex align-items-center justify-content-around"> <img class="img-fluid rounded-circle" src="http://placehold.it/150x150" alt="PERSONAL IMAGE">
-                    <h3>Name Surname</h3>
+    <div class="container-fluid">
+        <div class="row">
+            <div data-aos="zoom-in" data-aos-duration="1000" class="col-md-7 d-flex align-items-center justify-content-center"> <img class="img-fluid" src="http://placehold.it/500x500" alt="MAIN PROJECT IMAGE"> </div>
+            <div class="col-md-5 project-info col-xl-4">
+                <div class="row">
+                    <div class="col d-flex align-items-center justify-content-around"> <img class="img-fluid rounded-circle" src="http://placehold.it/150x150" alt="PERSONAL IMAGE">
+                        <h3>Name Surname</h3>
+                    </div>
                 </div>
+                <h2>Project Name</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis
+                    enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat,
+                    felis enim.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis
+                    placerat, felis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo
+                    eu convallis placerat, felis enim.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies,
+                    justo eu convallis placerat, felis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris
+                    ultricies, justo eu convallis placerat, felis enim.</p>
             </div>
-            <h2>Project Name</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis
-                enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat,
-                felis enim.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis
-                placerat, felis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu
-                convallis placerat, felis enim.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies,
-                justo eu convallis placerat, felis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris
-                ultricies, justo eu convallis placerat, felis enim.</p>
         </div>
     </div>
     <!-- /.row -->
     <!-- Related Projects Row -->
-    <div class="container-fluid container-3">
+    <div data-aos="fade-up" class="container-fluid container-3">
         <div class="row d-flex align-items-center justify-content-center">
             <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center">
                 <a href="#"> <img class="img-fluid" src="http://placehold.it/200x300" alt=""> </a>
@@ -113,7 +116,10 @@
 
 
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <!-- Optional JavaScript -->
     <script>
         function openNav() {
