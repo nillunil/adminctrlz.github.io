@@ -40,7 +40,16 @@ p {
     padding-bottom: 50pt;
     padding-top: 25pt;
     text-align: end;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: #ffffff00;
 }
+
+.title:hover {
+    color: #000000;
+    -webkit-text-stroke-width: 0px;
+}
+
 
 /* unvisited link */
 
@@ -49,6 +58,7 @@ a:link {
     text-decoration: none;
 }
 
+
 /* visited link */
 
 a:visited {
@@ -56,12 +66,13 @@ a:visited {
     text-decoration: none;
 }
 
+
 /* mouse over link */
 
 a:hover {
     color: white;
-
 }
+
 
 /* selected link */
 
