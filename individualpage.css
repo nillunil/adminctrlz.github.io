@@ -17,7 +17,11 @@ h3 {
 h2 {
     padding-top: 20pt;
     padding-bottom: 20pt;
-    letter-spacing: 3pt;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25pt;
+    font-weight: lighter;
+    color: black;
+    letter-spacing: 3px;
 }
 
 
