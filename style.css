@@ -197,44 +197,7 @@
             vertical-align: middle;
         }
         
-        .sidebar {
-            height: 100%;
-            width: 0;
-            position: fixed;
-            z-index: 3;
-            top: 0;
-            right: 0;
-            background-image: linear-gradient(to top, #ffffff, #9ea0a0);
-            border-left: solid;
-            border-left-width: thin;
-            border-color: black;
-            overflow-x: hidden;
-            transition: 0.5s;
-            padding-top: 60px;
-            border-image: url(images/left_arrow.png);
-        }
-        
-        .sidebar a {
-            padding: 8px 8px 8px 32px;
-            text-decoration: none;
-            font-size: 25px;
-            color: black;
-            display: block;
-            transition: 0.3s;
-        }
-        
-        .sidebar a:hover {
-            color: #f1f1f1
-        }
-        
-        .sidebar .closebtn {
-            position: absolute;
-            top: 0;
-            right: 25px;
-            font-size: 24px;
-            margin-left: 50px;
-            color: black;
-        }
+       
         
         #main {
             transition: margin-left .5s;
