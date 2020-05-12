@@ -199,7 +199,7 @@
     <!-- Portfolio Item, this is where you will edit.
     Please keep image size under <500kb,
     optimize for web when saving from photoshop/illustrator/lightroom/etc.
-    -jpg for photographs
+    -jpg for photographs 
     -png for artwork + transparency
     -youtube links for video
     -gifs are accepted as well-->
@@ -237,10 +237,32 @@
         </div>
     </div>
     <!-- Image Grid, this is where you will insert your 8 attachments; images, videos, images as links etc
-    -images will resize themselves to fit into the grid,
+    
+        -images will resize themselves to fit into the grid, 
     make sure that image size is kept under <1mb, preferably under <500kb
     optimize for web when saving to retain quality
-    -videos should be uploaded to youtube and linked here by using Share>Embed-->
+    
+    -videos should be uploaded to youtube and linked here by using Share>Embed
+    FOR VIDEOS <a href="#"> <img class="img-fluid" src="http://placehold.it/500x300" alt=""> is replaced by
+
+    <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" width="560" height="315" src="LINK TO VIDEO" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+    and change 16by9 to the resolution of the video:
+                21by9
+                16by9
+                4by3
+                1by1
+    
+    -images will resize themselves to the 4x4 grid
+    should you have less than 8 attachments ONLY <a href="#"> <img class="img-fluid" src="http://placehold.it/500x300" alt=""> should be deleted
+    
+    -IMP:   images that are not links should have <a href "#"> and </a> deleted
+            images that are links should have the link instead of the #
+    
+    
+    -->
     <div data-aos="fade-up" class="container-fluid container-3">
         <div class="row d-flex align-items-center justify-content-center">
             <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center">
