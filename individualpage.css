@@ -105,6 +105,10 @@ a img:hover {
     height: 150px;
 }
 
+.main-image {
+    padding: 40px;
+}
+
 @media screen and (max-width: 450px) {}
 
 @media screen and (max-width: 768px) {
