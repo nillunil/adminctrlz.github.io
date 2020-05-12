@@ -41,13 +41,13 @@
         }
         
         h5 {
-            letter-spacing: 3px;
+            letter-spacing: 2px;
         }
         
         p {
             font-family: 'Roboto', sans-serif;
-            font-size: 14pt;
-            letter-spacing: 2pt;
+            font-size: 12pt;
+            letter-spacing: 1pt;
             font-weight: 300;
         }
         
