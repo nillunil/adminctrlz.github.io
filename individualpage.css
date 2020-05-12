@@ -136,7 +136,7 @@ a img:hover {
     z-index: 3;
     top: 0;
     right: 0;
-    background-image: linear-gradient(to top, #ffffff, #9ea0a0);
+    background-image: linear-gradient(to top, #ffffff, #dadada);
     border-left: solid;
     border-left-width: thin;
     border-color: black;
@@ -156,7 +156,7 @@ a img:hover {
 }
 
 .sidebar a:hover {
-    color: #f1f1f1
+    color: #154c5b
 }
 
 .sidebar .closebtn {
