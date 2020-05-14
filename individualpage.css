@@ -119,12 +119,16 @@ a img:hover {
     .container-3 {
         padding-top: 10pt;
     }
+    .profile_picture {
+        width: 100px;
+        height: 100px;
+    }
 }
 
 @media screen and (max-width: 768px) and (min-width: 450px) {
     .project-info {
         padding-right: 50pt;
-        padding-top: 50pt;
+        padding-top: 10pt;
         padding-left: 50pt;
     }
     .container-3 {
