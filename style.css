@@ -144,17 +144,25 @@
             .col-6 {
                 flex: none;
                 max-width: none;
-                text-align: center;
+                text-align: left;
+                border-bottom: black;
+                border-bottom-style: dashed;
+                border-bottom-width: thin;
+                padding: 15px;
             }
             .title_of_piece {
                 padding-left: 15pt;
+                text-align: right;
             }
             .logo-image {
                 display: none;
             }
+            .container-2 {
+                height: 200px;
+            }
         }
         
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 768px) and (min-width: 450px) {
             .biotext {
                 padding-bottom: 0pt;
             }
@@ -162,7 +170,7 @@
                 padding-top: 10pt;
             }
             .container-2 {
-                height: 300px;
+                height: 250px;
             }
             .logo-image {
                 display: none;
@@ -172,6 +180,11 @@
             }
             .sidebar a {
                 font-size: 18px;
+            }
+            .title_of_piece {
+                padding-left: 15pt;
+                text-align: left;
+                width: 100;
             }
         }
         
