@@ -12,6 +12,7 @@ h3 {
     font-family: 'Abril Fatface', cursive;
     font-size: 20pt;
     text-align: center;
+    padding: 20px;
 }
 
 h2 {
@@ -109,9 +110,18 @@ a img:hover {
     padding: 40px;
 }
 
-@media screen and (max-width: 450px) {}
+@media screen and (max-width: 450px) {
+    .project-info {
+        padding-right: 20pt;
+        padding-top: 20pt;
+        padding-left: 20pt;
+    }
+    .container-3 {
+        padding-top: 10pt;
+    }
+}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 450px) {
     .project-info {
         padding-right: 50pt;
         padding-top: 50pt;
