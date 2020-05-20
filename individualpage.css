@@ -12,7 +12,6 @@ h3 {
     font-family: 'Abril Fatface', cursive;
     font-size: 20pt;
     text-align: center;
-    padding: 20px;
 }
 
 h2 {
@@ -93,6 +92,8 @@ a img:hover {
 .container-3 {
     padding-top: 75pt;
     padding-bottom: 100pt;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .project-info {
@@ -110,30 +111,18 @@ a img:hover {
     padding: 40px;
 }
 
-@media screen and (max-width: 450px) {
-    .project-info {
-        padding-right: 20pt;
-        padding-top: 20pt;
-        padding-left: 20pt;
-    }
-    .container-3 {
-        padding-top: 10pt;
-    }
-    .profile_picture {
-        width: 100px;
-        height: 100px;
-    }
-}
+@media screen and (max-width: 450px) {}
 
-@media screen and (max-width: 768px) and (min-width: 450px) {
+@media screen and (max-width: 768px) {
     .project-info {
         padding-right: 50pt;
-        padding-top: 10pt;
+        padding-top: 50pt;
         padding-left: 50pt;
     }
     .container-3 {
         padding-top: 20pt;
-    }
+        padding-left: 0;
+        padding-right: 0    }
 }
 
 .img-sticky {
