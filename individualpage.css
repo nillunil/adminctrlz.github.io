@@ -87,6 +87,7 @@ a img:hover {
     animation-fill-mode: forwards;
     -webkit-animation-direction: normal, alternate;
     animation-direction: normal, alternate;
+
 }
 
 .container-3 {
@@ -173,4 +174,8 @@ a img:hover {
     font-size: 24px;
     margin-left: 50px;
     color: black;
+}
+
+.change_cursor {
+    cursor: zoom-in;
 }
